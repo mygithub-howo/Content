@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 如果不加这个标签，手机浏览器打开这个页面的时候，会按照手机的实际像素去渲染页面中的内容，这就会导致所有的东西都很小。加上这个标签，手机浏览器会按照逻辑像素去渲染页面内容，这样我们就可以根据不同手机的逻辑去布局。 -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,height=device-height">
+	<title>index</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div class="header">
+		<span class="back button">❧</span>
+		<ul>
+			<li><span class="refresh button">❤</span></li>
+			<li><span class="add button">✚</span></li>
+		</ul>
+	</div>
+	<div class="container">
+		<div class="container-inner">
+			<div class="findlist">
+				<ul>
+				</ul>
+			</div>
+			<dl class="contacts">
+			</dl>
+		</div>
+	</div>
+	<div class="tips position-center">
+		<div class="tips-content position-center">
+			<ul>
+				<li class="avatar"></li>
+				<li class="name" data-role="name">Name</li>
+				<li class="phone" data-role="phone">Phone</li>
+				<!-- <li class="info"><p>XXX公司</p></li> -->
+			</ul>
+			<ul class="opration">
+				<li><span class="button cancle">取消</span></li>
+				<li><span class="button done">完成</span></li>
+			</ul>
+		</div>
+	</div>
+
+<script src="./js/index.js"></script>
+</body>
+</html>

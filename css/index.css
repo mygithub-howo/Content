@@ -1,0 +1,145 @@
+body{
+	font-size: 16px;
+	font-family: "Arial";
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,dd,dl,dt{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	color: rgb(230,32,30);
+	text-decoration: none;
+}
+.header .button{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 6px;
+}
+.header{
+	height: 45px;
+	background: #ffbb00;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+.header .back{
+	float: left;
+}
+.header ul{
+	float: right;
+}
+.header ul li{
+	float: left;
+}
+.container{
+	position: absolute;
+	width: 100%;
+	top: 45px;
+	height: 691px;
+	background: #fff;
+	overflow-y: auto;
+}
+.contacts{
+	padding: 10px 25px 10px 5px;
+	box-sizing: border-box;
+}
+.contacts dt{
+	position: relative;
+	margin-top: -1px;
+	border-bottom: 1px solid black;
+	background: #e7e7e7;
+}
+.contacts dd{
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
+.contacts .name{
+	padding: 5px 0;
+}
+.contacts .phone{
+	opacity: 0.5;
+	font-size: 11px;
+	padding: 5px 0;
+}
+.findlist{
+	width: 20px;
+	/*border: 1px solid black;*/
+	background: orange;
+	position: fixed;
+	margin:auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+/*.findlist ul{
+	height:650px;
+}*/
+.findlist li{
+	padding:10px 0;
+	text-align: center;
+}
+.tips{
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	display: none;
+}
+.tips .tips-content{
+	background: white;
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 90%;
+	height: 60%;
+	padding: 20px 50px;
+	border-radius: 50px;
+	box-sizing:border-box;
+}
+.avatar{
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	border-radius: 50%;
+	border: 2px solid #808080;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.position-center .name,.position-center .phone, .position-center .info{
+	margin: 0 auto;
+	/*text-align: center;*/
+	padding: 5px 0;
+	border-bottom: 1px solid black;
+	height: 20px;
+	line-height: 20px;
+}
+.position-center input{
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid red;
+	line-height: 20px;
+	font-size: 14px;
+	color: #333;
+}
+.opration{
+	margin-top:40px;
+	float: right;
+}
+.opration li{
+	display: inline-block;
+}
+.cancle, .done{
+	display: inline-block;
+	padding: 10px;
+	background: orange;
+}
